@@ -1,0 +1,9 @@
+<?php
+
+
+function custom_contextual_links_view_alter(&$element, $items) {
+    if(isset($element['#links']['draggableviews-order']['title']) && isset($element['#links']['draggableviews-order']) && count($element['#links']['draggableviews-order']) > 0){
+        
+        $element['#links']['draggableviews-order']['title'] = 'Rearrange Items';
+    }
+}
