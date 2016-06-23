@@ -6528,16 +6528,19 @@ article.view-mode-default.node-article .post-date-ago span {
     }
 }
 
+#block-views-related-advisers-block--2 .block-title,
 #block-views-related-advisers-block .block-title {
     display: inline-block;
     text-transform: uppercase
 }
 
+#block-views-related-advisers-block--2 .view-content,
 #block-views-related-advisers-block .view-content {
     margin-right: -10px;
     margin-left: -10px
 }
 
+#block-views-related-advisers-block--2 .views-row,
 #block-views-related-advisers-block .views-row {
     clear: left;
     float: left;
@@ -6557,6 +6560,7 @@ article.view-mode-default.node-article .post-date-ago span {
 }
 
 @media all and (min-width: 768px) and (max-width: 1279px) {
+    #block-views-related-advisers-block--2 .views-row-odd,
     #block-views-related-advisers-block .views-row-odd {
         float: left;
         width: 41.66667%;
@@ -6572,6 +6576,7 @@ article.view-mode-default.node-article .post-date-ago span {
         padding-left: 0;
         padding-right: 0
     }
+    #block-views-related-advisers-block--2 .views-row-even,
     #block-views-related-advisers-block .views-row-even {
         clear: none;
         float: left;
@@ -6591,6 +6596,7 @@ article.view-mode-default.node-article .post-date-ago span {
 }
 
 @media all and (min-width: 1280px) and (max-width: 9999px) {
+    #block-views-related-advisers-block--2 .views-row-odd,
     #block-views-related-advisers-block .views-row-odd {
         float: left;
         width: 41.66667%;
@@ -6606,6 +6612,7 @@ article.view-mode-default.node-article .post-date-ago span {
         padding-left: 0;
         padding-right: 0
     }
+    #block-views-related-advisers-block--2 .views-row-even,
     #block-views-related-advisers-block .views-row-even {
         clear: none;
         float: left;
@@ -6624,6 +6631,7 @@ article.view-mode-default.node-article .post-date-ago span {
     }
 }
 
+#block-views-related-advisers-block--2 .profile-wrap,
 #block-views-related-advisers-block .profile-wrap {
     float: left;
     width: 41.66667%;
@@ -6638,10 +6646,12 @@ article.view-mode-default.node-article .post-date-ago span {
     word-wrap: break-word
 }
 
+#block-views-related-advisers-block--2 .profile-wrap a img,
 #block-views-related-advisers-block .profile-wrap a img {
     display: block
 }
 
+#block-views-related-advisers-block--2 .content-wrap,
 #block-views-related-advisers-block .content-wrap {
     clear: right;
     float: right;
@@ -6658,6 +6668,7 @@ article.view-mode-default.node-article .post-date-ago span {
 }
 
 @media all and (min-width: 768px) and (max-width: 1279px) {
+    #block-views-related-advisers-block--2 .position,
     #block-views-related-advisers-block .position {
         font-size: 16px
     }
