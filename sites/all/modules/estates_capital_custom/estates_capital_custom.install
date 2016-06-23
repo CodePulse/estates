@@ -10,6 +10,7 @@ function estates_capital_custom_install() {
 		'context',
 		'estate_capital_context',
 		'estate_capital_content_types',
+		'estate_capital_views',
 
 	));
 }

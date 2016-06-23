@@ -4449,13 +4449,15 @@ article.view-mode-default.node-article .post-date-ago {
 
 @media all and (min-width: 768px) and (max-width: 1279px) {
     .pad-content-box {
-        padding: 30px
+        padding: 30px;
+        min-height: 475px;
     }
 }
 
 @media all and (min-width: 1280px) and (max-width: 9999px) {
     .pad-content-box {
-        padding: 40px
+        padding: 40px;
+        min-height: 475px;
     }
 }
 
@@ -7586,6 +7588,7 @@ article.view-mode-default.node-article .post-date-ago span {
     background: #e9aa64
 }
 
+.view-key-related-pages .pad-content-box.theme-yellow,
 .view-homepage-header-display-offset .pad-content-box.theme-yellow,
 .view-homepage-header-sticky-display .views-row.theme-yellow,
 .view-homepage-header-display .views-row.theme-yellow,
@@ -7593,6 +7596,7 @@ article.view-mode-default.node-article .post-date-ago span {
     background: #e9aa64
 }
 
+.view-key-related-pages .pad-content-box.theme-yellow .btn,
 .view-homepage-header-display-offset .pad-content-box.theme-yellow .btn,
 .view-homepage-header-display-offset .pad-content-box.theme-yellow .pager.pager-load-more .pager-next.first.last a,
 .pager.pager-load-more .pager-next.first.last .view-homepage-header-display-offset .pad-content-box.theme-yellow a,
@@ -7608,6 +7612,7 @@ article.view-mode-default.node-article .post-date-ago span {
     background: #ca781d
 }
 
+.view-key-related-pages .pad-content-box.theme-yellow .btn:hover,
 .view-homepage-header-display-offset .pad-content-box.theme-yellow .btn:hover,
 .view-homepage-header-display-offset .pad-content-box.theme-yellow .pager.pager-load-more .pager-next.first.last a:hover,
 .pager.pager-load-more .pager-next.first.last .view-homepage-header-display-offset .pad-content-box.theme-yellow a:hover,
@@ -7623,6 +7628,7 @@ article.view-mode-default.node-article .post-date-ago span {
     background: #df8521
 }
 
+.view-key-related-pages .pad-content-box.theme-yellow .related-title,
 .view-homepage-header-display-offset .pad-content-box.theme-yellow .related-title,
 .view-homepage-header-display-offset .pad-content-box.theme-yellow .related-title a.nb.db,
 .view-homepage-header-display-offset .pad-content-box.theme-yellow .related-title .view-id-portfolio_listing .views-field-field-image a.db,
@@ -7641,7 +7647,50 @@ article.view-mode-default.node-article .post-date-ago span {
 .view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-yellow .subtitle a.db {
     color: #FFF
 }
-
+.view-key-related-pages .pad-content-box.theme-burgundy .related-title,
+.view-homepage-header-display-offset .pad-content-box.theme-burgundy .related-title,
+.view-key-related-pages .pad-content-box.theme-burgundy .related-title a.nb.db,
+.view-homepage-header-display-offset .pad-content-box.theme-burgundy .related-title a.nb.db,
+.view-homepage-header-display-offset .pad-content-box.theme-burgundy .related-title .view-id-portfolio_listing .views-field-field-image a.db,
+.view-key-related-pages .pad-content-box.theme-burgundy .related-title .view-id-portfolio_listing .views-field-field-image a.db,
+.view-id-portfolio_listing .views-field-field-image .view-homepage-header-display-offset .pad-content-box.theme-burgundy .related-title a.db,
+.view-key-related-pages .pad-content-box.theme-burgundy .subtitle,
+.view-homepage-header-display-offset .pad-content-box.theme-burgundy .subtitle,
+.view-homepage-header-display-offset .pad-content-box.theme-burgundy .subtitle a.nb.db,
+.view-homepage-header-display-offset .pad-content-box.theme-burgundy .subtitle .view-id-portfolio_listing .views-field-field-image a.db,
+.view-id-portfolio_listing .views-field-field-image .view-homepage-header-display-offset .pad-content-box.theme-burgundy .subtitle a.db,
+.view-key-related-pages .views-row.theme-burgundy .related-title,
+.view-key-related-pages .views-row.theme-burgundy .related-title a.nb.db,
+.view-key-related-pages .views-row.theme-burgundy .related-title .view-id-portfolio_listing .views-field-field-image a.db,
+.view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-burgundy .related-title a.db,
+.view-key-related-pages .views-row.theme-burgundy .subtitle,
+.view-key-related-pages .views-row.theme-burgundy .subtitle a.nb.db,
+.view-key-related-pages .views-row.theme-burgundy .subtitle .view-id-portfolio_listing .views-field-field-image a.db,
+.view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-burgundy .subtitle a.db {
+    color: #FFF
+}
+.view-key-related-pages .pad-content-box.theme-orange .related-title,
+.view-homepage-header-display-offset .pad-content-box.theme-orange .related-title,
+.view-key-related-pages .pad-content-box.theme-orange .related-title a.nb.db,
+.view-homepage-header-display-offset .pad-content-box.theme-orange .related-title a.nb.db,
+.view-homepage-header-display-offset .pad-content-box.theme-orange .related-title .view-id-portfolio_listing .views-field-field-image a.db,
+.view-key-related-pages .pad-content-box.theme-orange .related-title .view-id-portfolio_listing .views-field-field-image a.db,
+.view-id-portfolio_listing .views-field-field-image .view-homepage-header-display-offset .pad-content-box.theme-orange .related-title a.db,
+.view-key-related-pages .pad-content-box.theme-orange .subtitle,
+.view-homepage-header-display-offset .pad-content-box.theme-orange .subtitle,
+.view-homepage-header-display-offset .pad-content-box.theme-orange .subtitle a.nb.db,
+.view-homepage-header-display-offset .pad-content-box.theme-orange .subtitle .view-id-portfolio_listing .views-field-field-image a.db,
+.view-id-portfolio_listing .views-field-field-image .view-homepage-header-display-offset .pad-content-box.theme-orange .subtitle a.db,
+.view-key-related-pages .views-row.theme-orange .related-title,
+.view-key-related-pages .views-row.theme-orange .related-title a.nb.db,
+.view-key-related-pages .views-row.theme-orange .related-title .view-id-portfolio_listing .views-field-field-image a.db,
+.view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-orange .related-title a.db,
+.view-key-related-pages .views-row.theme-orange .subtitle,
+.view-key-related-pages .views-row.theme-orange .subtitle a.nb.db,
+.view-key-related-pages .views-row.theme-orange .subtitle .view-id-portfolio_listing .views-field-field-image a.db,
+.view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-orange .subtitle a.db {
+    color: #FFF
+}
 .bg-yellow {
     background: #e9aa64
 }
@@ -7848,6 +7897,7 @@ article.view-mode-default.node-article .post-date-ago span {
     background: #b10b40
 }
 
+.view-key-related-pages .pad-content-box.theme-burgundy,
 .view-homepage-header-display-offset .pad-content-box.theme-burgundy,
 .view-homepage-header-sticky-display .views-row.theme-burgundy,
 .view-homepage-header-display .views-row.theme-burgundy,
@@ -7856,6 +7906,7 @@ article.view-mode-default.node-article .post-date-ago span {
 }
 
 .view-homepage-header-display-offset .pad-content-box.theme-burgundy .btn,
+.view-key-related-pages .pad-content-box.theme-burgundy .btn,
 .view-homepage-header-display-offset .pad-content-box.theme-burgundy .pager.pager-load-more .pager-next.first.last a,
 .pager.pager-load-more .pager-next.first.last .view-homepage-header-display-offset .pad-content-box.theme-burgundy a,
 .view-homepage-header-sticky-display .views-row.theme-burgundy .btn,
@@ -7870,6 +7921,7 @@ article.view-mode-default.node-article .post-date-ago span {
     background: #51051d
 }
 
+.view-key-related-pages .pad-content-box.theme-burgundy .btn:hover,
 .view-homepage-header-display-offset .pad-content-box.theme-burgundy .btn:hover,
 .view-homepage-header-display-offset .pad-content-box.theme-burgundy .pager.pager-load-more .pager-next.first.last a:hover,
 .pager.pager-load-more .pager-next.first.last .view-homepage-header-display-offset .pad-content-box.theme-burgundy a:hover,
@@ -7885,6 +7937,7 @@ article.view-mode-default.node-article .post-date-ago span {
     background: #690726
 }
 
+.view-key-related-pages .pad-content-box.theme-burgundy .related-title,
 .view-homepage-header-display-offset .pad-content-box.theme-burgundy .related-title,
 .view-homepage-header-display-offset .pad-content-box.theme-burgundy .related-title a.nb.db,
 .view-homepage-header-display-offset .pad-content-box.theme-burgundy .related-title .view-id-portfolio_listing .views-field-field-image a.db,

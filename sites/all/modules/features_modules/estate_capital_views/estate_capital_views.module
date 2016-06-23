@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Estate Capital - Views feature.
+ */
+
+include_once 'estate_capital_views.features.inc';

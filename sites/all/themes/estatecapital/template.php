@@ -121,7 +121,7 @@ function estatecapital_preprocess_views_view_fields(&$vars){
 
 function estatecapital_views_pre_render(&$view) {
 	$results = $view->result;
-	if ($view->name == 'homepage_slider') {
+	if ($view->name == 'homepage_slider' || $view->name == 'key_related_pages') {
 		foreach ($results as $id => $row) {
 			$term_name = $row->field_field_theme_colour[0]['raw']['taxonomy_term']->name;
 			$html_class_term = drupal_html_class($term_name);
@@ -145,7 +145,7 @@ function estatecapital_preprocess_views_view_unformatted(&$vars) {
 				$term_name = $row->field_field_theme_colour[0]['raw']['taxonomy_term']->name;
 
 				$class_output = ' theme-'.strtolower(drupal_clean_css_identifier($term_name));
-				$vars['classes_array'][$row_id] .= $class_output;
+//				$vars['classes_array'][$row_id] .= $class_output;
 			}
 		}
 	}
