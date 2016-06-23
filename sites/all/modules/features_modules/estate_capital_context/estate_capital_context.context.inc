@@ -25,6 +25,11 @@ function estate_capital_context_context_default_contexts() {
         'node_form' => '0',
       ),
     ),
+    'path' => array(
+      'values' => array(
+        '~<front>' => '~<front>',
+      ),
+    ),
   );
   $context->reactions = array(
     'block' => array(
@@ -44,7 +49,7 @@ function estate_capital_context_context_default_contexts() {
       ),
     ),
   );
-  $context->condition_mode = 0;
+  $context->condition_mode = 1;
   $export['basic_page'] = $context;
 
   $context = new stdClass();
@@ -63,9 +68,9 @@ function estate_capital_context_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-25a7f4f90a4d46e55bb16c4b17c71807' => array(
+        'views-key_related_pages-block' => array(
           'module' => 'views',
-          'delta' => '25a7f4f90a4d46e55bb16c4b17c71807',
+          'delta' => 'key_related_pages-block',
           'region' => 'content_bottom',
           'weight' => '-10',
         ),
