@@ -1,0 +1,3 @@
+name = Estate capital Custom module
+description = "A custom EC module"
+core = 7.x

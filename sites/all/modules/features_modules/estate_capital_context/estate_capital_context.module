@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Estate Capital - Context feature.
+ */
+
+include_once 'estate_capital_context.features.inc';

@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_install()
+ */
+function estates_capital_custom_install() {
+	module_enable(array(
+		'features',
+		'fe_block',
+		'context',
+		'estate_capital_context',
+		'estate_capital_content_types',
+
+	));
+}
