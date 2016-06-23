@@ -8,9 +8,9 @@ function estates_capital_custom_install() {
 		'features',
 		'fe_block',
 		'context',
-		'estate_capital_context',
 		'estate_capital_content_types',
+		'estate_capital_context',
 		'estate_capital_views',
-
+		'estate_capital_blocks',
 	));
 }

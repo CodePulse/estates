@@ -1,0 +1,13 @@
+name = Estate Capital - Blocks
+core = 7.x
+package = Estate Capital
+dependencies[] = fe_block
+dependencies[] = views
+dependencies[] = webform
+features[fe_block_settings][] = views-118da6dfbee30d861dc368daea7bed2e
+features[fe_block_settings][] = views-60b21f3bedbbb5e2f4ec05afd283678f
+features[fe_block_settings][] = views-homepage_blog_listing-block
+features[fe_block_settings][] = views-homepage_blog_listing-block_1
+features[fe_block_settings][] = webform-client-block-106
+features[fe_block_settings][] = webform-client-block-6
+features[features_api][] = api:2
