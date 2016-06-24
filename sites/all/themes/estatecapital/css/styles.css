@@ -2428,24 +2428,29 @@ tr.selected td {
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    word-wrap: break-word
+    word-wrap: break-word;
+    position:relative;
 }
 
 @media all and (min-width: 768px) and (max-width: 1279px) {
     .tc3-listing-4-4-4 .tcol {
         clear: none;
         float: left;
-        width: 33.33333%;
+        width: 50%;
         padding-left: 10px;
         padding-right: 10px;
-        margin-right: 0px
+        margin-right: 0px;
+        position: relative;
     }
     .tc3-listing-4-4-4 .tcol:nth-of-type(3n+1) {
-        clear: left
+        /*clear: left*/
     }
 }
 
 @media all and (min-width: 1280px) and (max-width: 9999px) {
+    .view-id-key_related_pages.tc3-listing-4-4-4 .tcol {
+        width: 50%;
+    }
     .tc3-listing-4-4-4 .tcol {
         clear: none;
         float: left;
@@ -2455,7 +2460,7 @@ tr.selected td {
         margin-right: 0px
     }
     .tc3-listing-4-4-4 .tcol:nth-of-type(3n+1) {
-        clear: left
+        /*clear: left*/
     }
 }
 
@@ -3070,6 +3075,13 @@ a:visited.btn,
     .pager.pager-load-more .pager-next.first.last a:visited {
         font-size: 18px
     }
+    .view-key-related-pages .views-row a.btn {
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        width: 80%;
+    }
+
 }
 
 @media all and (min-width: 1280px) and (max-width: 9999px) {
@@ -3634,6 +3646,9 @@ body.grid-bg .full-width-content {
 }
 
 @media all and (min-width: 1280px) and (max-width: 9999px) {
+    #block-views-key-related-pages-block.block {
+        margin-bottom:0;
+    }
     .block {
         margin-bottom: 60px
     }
@@ -4115,8 +4130,12 @@ blockquote p,
     #block-views-related-advisers-block .block-title,
     .node-portfolio.view-mode-default .downloads-info>h3,
     .node-portfolio.view-mode-default .view-id-portfolio_value_display .views-field h3,
-    .custom-downloads-info>h3 {
+    .custom-downloads-info>h3,
+    #block-views-key-related-pages-block h2 {
         padding-top: 30px
+    }
+    .front #block-views-key-related-pages-block h2 {
+        padding-top: 0;
     }
 }
 
@@ -4360,10 +4379,13 @@ article.node-team.view-mode-default .field-name-field-image img,
     .front .header-display-block .views-row,
     .front .header-display-block.sticky .views-row,
     .front .full-width-wrapper.content_middle,
-    .full-width-wrapper.content_bottom,
+    .front .full-width-wrapper.content_bottom,
     .full-width-wrapper.above_footer,
     .full-width-wrapper.footer {
         padding-top: 60px
+    }
+    .full-width-wrapper.content_bottom {
+        padding-top:0;
     }
 }
 
@@ -4450,17 +4472,24 @@ article.view-mode-default.node-article .post-date-ago {
 @media all and (min-width: 768px) and (max-width: 1279px) {
     .pad-content-box {
         padding: 30px;
-        min-height: 475px;
+        min-height: 305px;
     }
 }
 
 @media all and (min-width: 1280px) and (max-width: 9999px) {
     .pad-content-box {
         padding: 40px;
-        min-height: 475px;
+        min-height: 395px;
+        position:relative;
     }
-}
+    .view-key-related-pages .views-row a.btn {
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        width: 80%;
+    }
 
+}
 .pad-content-box a.btn,
 .pad-content-box .pager.pager-load-more .pager-next.first.last a,
 .pager.pager-load-more .pager-next.first.last .pad-content-box a {

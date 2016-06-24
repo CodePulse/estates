@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_block_view_alter()
+ * @param $data
+ * @param $block
+ */
+function estates_capital_custom_block_view_alter(&$data, $block) {
+	if ($block->delta == 'key_related_pages-block' && drupal_is_front_page()) {
+		// If its the key related pages block and its the homepage then lets set the
+		// title to blank
+		$block->title = '';
+	}
+}
