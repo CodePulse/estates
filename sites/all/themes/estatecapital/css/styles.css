@@ -350,7 +350,10 @@ table {
     box-sizing: border-box;
     word-wrap: break-word
 }
-
+.view-homepage-slider #header {
+    padding-left:0;
+    padding-right:0;
+}
 #header:before,
 #header:after,
 #main:before,
@@ -4324,6 +4327,11 @@ article.node-team.view-mode-default .field-name-field-image img,
     .view-homepage-header-display-offset .views-row,
     .view-key-related-pages .views-row {
         margin-bottom: 40px
+    }
+    .view-homepage-header-display-offset .views-row,
+    .view-key-related-pages .views-row {
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 }
 
