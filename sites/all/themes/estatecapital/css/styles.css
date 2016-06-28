@@ -1014,7 +1014,7 @@ tr.selected td {
     width: device-width
 }
 
-.twrapper,
+/*.twrapper,*/
 .twrapper .twrapper {
     margin-right: -10px;
     margin-left: -10px
@@ -2425,7 +2425,7 @@ tr.selected td {
     width: 100%;
     margin-left: 0%;
     margin-right: -100%;
-    padding-left: 10px;
+    padding-left: 0;
     padding-right: 10px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -2458,7 +2458,7 @@ tr.selected td {
         clear: none;
         float: left;
         width: 33.33333%;
-        padding-left: 10px;
+        padding-left: 0;
         padding-right: 10px;
         margin-right: 0px
     }
@@ -2724,7 +2724,7 @@ h1,
     h1,
     .h1 {
         font-size: 30px;
-        margin: 0 0 34px 0
+        margin: 0 0 34px 0;
     }
 }
 
@@ -3649,9 +3649,9 @@ body.grid-bg .full-width-content {
 }
 
 @media all and (min-width: 1280px) and (max-width: 9999px) {
-    #block-views-key-related-pages-block.block {
-        margin-bottom:0;
-    }
+    /*#block-views-key-related-pages-block.block {*/
+        /*margin-bottom:60px;*/
+    /*}*/
     .block {
         margin-bottom: 60px
     }
@@ -4330,7 +4330,7 @@ article.node-team.view-mode-default .field-name-field-image img,
     }
     .view-homepage-header-display-offset .views-row,
     .view-key-related-pages .views-row {
-        margin-bottom: 10px;
+        margin-bottom: 0;
         margin-top: 10px;
     }
 }
