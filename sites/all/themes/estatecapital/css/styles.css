@@ -6093,12 +6093,15 @@ article.node-team.view-mode-default .field-name-field-image img {
     }
 }
 
+.front .view-blog-listing .pager a,
+.front .pager.pager-load-more .pager-next.first.last a,
 #block-views-homepage-blog-listing-block .view-footer .view-blog-link a.btn,
 #block-views-homepage-blog-listing-block .view-footer .view-blog-link .pager.pager-load-more .pager-next.first.last a,
 .pager.pager-load-more .pager-next.first.last #block-views-homepage-blog-listing-block .view-footer .view-blog-link a {
     background: rgba(65, 29, 51, 0.8)
 }
 
+.front .pager.pager-load-more .pager-next.first.last a:hover,
 #block-views-homepage-blog-listing-block .view-footer .view-blog-link a.btn:hover,
 #block-views-homepage-blog-listing-block .view-footer .view-blog-link .pager.pager-load-more .pager-next.first.last a:hover,
 .pager.pager-load-more .pager-next.first.last #block-views-homepage-blog-listing-block .view-footer .view-blog-link a:hover {
@@ -8306,5 +8309,10 @@ article.view-mode-default.node-article .post-date-ago span {
 }
 .content_middle #block-views-homepage-blog-listing-block-1 h2,
 .content_middle .view-homepage-blog-listing .views-row .views-field {
+    color:#fff;
+}
+.front .view-blog-listing .views-field-field-body a,
+.front h2,
+.front .view-blog-listing {
     color:#fff;
 }

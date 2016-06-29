@@ -68,6 +68,18 @@ function estate_capital_context_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'views-60b21f3bedbbb5e2f4ec05afd283678f' => array(
+          'module' => 'views',
+          'delta' => '60b21f3bedbbb5e2f4ec05afd283678f',
+          'region' => 'content_middle',
+          'weight' => '-10',
+        ),
+        'views-118da6dfbee30d861dc368daea7bed2e' => array(
+          'module' => 'views',
+          'delta' => '118da6dfbee30d861dc368daea7bed2e',
+          'region' => 'content_middle',
+          'weight' => '-9',
+        ),
         'views-key_related_pages-block' => array(
           'module' => 'views',
           'delta' => 'key_related_pages-block',
