@@ -8289,14 +8289,20 @@ article.view-mode-default.node-article .post-date-ago span {
 #block-system-main-menu ul.menu li:hover > ul.menu li {
     display:block;
 }
+#block-system-main-menu ul.menu li:hover > ul.menu li{
+    /*margin-left:-1px;*/
+}
 #block-system-main-menu ul.menu li:hover > ul.menu {
     display: block;
     position:absolute;
     z-index: 1;
     background:#fff;
     width: 260px;
-    padding: 12px;
+    padding: 10px 10px 10px 0;
     left:0;
+}
+#block-views-key-related-pages-block--2 {
+    margin-top:50px;
 }
 
 .view-homepage-slider .views-row {
