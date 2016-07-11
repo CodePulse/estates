@@ -4344,6 +4344,12 @@ article.node-team.view-mode-default .field-name-field-image img,
     margin-bottom: 40px
 }
 
+.view-display-id-blog_listing_default .view-footer {
+    position: absolute;
+    display: block;
+    bottom: -80px;
+}
+
 @media all and (min-width: 768px) and (max-width: 1279px) {
     .block-default-margin,
     #block-views-homepage-blog-listing-block .views-row,
