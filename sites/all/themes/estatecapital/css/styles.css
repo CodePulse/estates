@@ -3209,7 +3209,77 @@ a:visited.btn,
 .view-key-related-pages .pad-content-box.theme-yellow .related-title, .view-homepage-header-display-offset .pad-content-box.theme-yellow .related-title, .view-homepage-header-display-offset .pad-content-box.theme-yellow .related-title a.nb.db, .view-homepage-header-display-offset .pad-content-box.theme-yellow .related-title .view-id-portfolio_listing .views-field-field-image a.db, .view-id-portfolio_listing .views-field-field-image .view-homepage-header-display-offset .pad-content-box.theme-yellow .related-title a.db, .view-homepage-header-display-offset .pad-content-box.theme-yellow .subtitle, .view-homepage-header-display-offset .pad-content-box.theme-yellow .subtitle a.nb.db, .view-homepage-header-display-offset .pad-content-box.theme-yellow .subtitle .view-id-portfolio_listing .views-field-field-image a.db, .view-id-portfolio_listing .views-field-field-image .view-homepage-header-display-offset .pad-content-box.theme-yellow .subtitle a.db, .view-key-related-pages .views-row.theme-yellow .related-title, .view-key-related-pages .views-row.theme-yellow .related-title a.nb.db, .view-key-related-pages .views-row.theme-yellow .related-title .view-id-portfolio_listing .views-field-field-image a.db, .view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-yellow .related-title a.db, .view-key-related-pages .views-row.theme-yellow .subtitle, .view-key-related-pages .views-row.theme-yellow .subtitle a.nb.db, .view-key-related-pages .views-row.theme-yellow .subtitle .view-id-portfolio_listing .views-field-field-image a.db, .view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-yellow .subtitle a.db {
   color: #FFF;
 }
-
+.full-width-wrapper.header.image {
+z-index:-1;
+}
+#block-system-main-menu ul.menu li {
+  display: inline;
+  position: relative;
+  padding-bottom: 5px;
+}
+#block-system-main-menu ul.menu li {
+  padding-right: 30px;
+}
+#block-system-main-menu ul.menu li:hover > ul.menu li {
+  display: block;
+}
+.view-homepage-header-display-offset .pad-content-box.theme-orange, .view-homepage-header-sticky-display .views-row.theme-orange, .view-homepage-header-display .views-row.theme-orange, .view-key-related-pages .views-row.theme-orange {
+  background: #dd733c;
+}
+#block-views-related-advisers-block--2 .views-row, #block-views-related-advisers-block .views-row {
+  clear: left;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+#block-views-related-advisers-block--2 .views-row-odd, #block-views-related-advisers-block .views-row-odd {
+  float: left;
+  width: 41.66667%;
+  margin-left: 0%;
+  margin-right: -41.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  padding-left: 0;
+  padding-right: 0;
+}
+#block-views-related-advisers-block--2 .views-row-even, #block-views-related-advisers-block .views-row-even {
+  clear: none;
+  float: left;
+  width: 41.66667%;
+  margin-left: 50%;
+  margin-right: -91.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  padding-left: 0;
+  padding-right: 0;
+}
+.view-homepage-header-display-offset .pad-content-box.theme-orange .related-title, .view-homepage-header-display-offset .pad-content-box.theme-orange .related-title a.nb.db, .view-homepage-header-display-offset .pad-content-box.theme-orange .related-title .view-id-portfolio_listing .views-field-field-image a.db, .view-id-portfolio_listing .views-field-field-image .view-homepage-header-display-offset .pad-content-box.theme-orange .related-title a.db, .view-homepage-header-display-offset .pad-content-box.theme-orange .subtitle, .view-homepage-header-display-offset .pad-content-box.theme-orange .subtitle a.nb.db, .view-homepage-header-display-offset .pad-content-box.theme-orange .subtitle .view-id-portfolio_listing .views-field-field-image a.db, .view-id-portfolio_listing .views-field-field-image .view-homepage-header-display-offset .pad-content-box.theme-orange .subtitle a.db, .view-key-related-pages .views-row.theme-orange .related-title, .view-key-related-pages .views-row.theme-orange .related-title a.nb.db, .view-key-related-pages .views-row.theme-orange .related-title .view-id-portfolio_listing .views-field-field-image a.db, .view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-orange .related-title a.db, .view-key-related-pages .views-row.theme-orange .subtitle, .view-key-related-pages .views-row.theme-orange .subtitle a.nb.db, .view-key-related-pages .views-row.theme-orange .subtitle .view-id-portfolio_listing .views-field-field-image a.db, .view-id-portfolio_listing .views-field-field-image .view-key-related-pages .views-row.theme-orange .subtitle a.db {
+  color: #FFF;
+}
+.view-homepage-header-display-offset .pad-content-box.theme-orange .btn, .view-homepage-header-display-offset .pad-content-box.theme-orange .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-display-offset .pad-content-box.theme-orange a, .view-homepage-header-sticky-display .views-row.theme-orange .btn, .view-homepage-header-sticky-display .views-row.theme-orange .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-sticky-display .views-row.theme-orange a, .view-homepage-header-display .views-row.theme-orange .btn, .view-homepage-header-display .views-row.theme-orange .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-display .views-row.theme-orange a, .view-key-related-pages .views-row.theme-orange .btn, .view-key-related-pages .views-row.theme-orange .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-key-related-pages .views-row.theme-orange a {
+  background: #98461b;
+}
 @media all and (min-width: 1280px) and (max-width: 9999px) {
   a.btn,
   .pager.pager-load-more .pager-next.first.last a,
