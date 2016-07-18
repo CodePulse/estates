@@ -1,3 +1,22 @@
+@media (max-width: 1279px) and (min-width: 768px) {
+    a#logo {
+        width: 180px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .full-width-wrapper.navbar {
+        padding: 40px 0;
+    }
+}
+#block-block-8 {
+    z-index:1;
+}
+a#logo {
+    width: 180px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .view-key-related-pages {
   width: 100% !important;
   display: -webkit-box;
@@ -8665,4 +8684,8 @@ article.view-mode-default.node-article .post-date-ago span {
 .views-row.theme-yellow,
 .theme-yellow .full-width-wrapper.header {
   background: #e9aa64
+}
+
+
+@media (max-width: 1279px) and (min-width: 768px) {
 }
