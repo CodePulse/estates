@@ -62,19 +62,30 @@ Drupal.behaviors.my_custom_behavior = {
 					}
 				});
 
-      function homepage_slideshow() {
-          var divs= $('.view-homepage-slider .views-row'),
-              now = divs.filter(':visible'),
-              next = now.next().length ? now.next() : divs.first(),
-              speed = 1000;
+      //function homepage_slideshow() {
+      //    var divs= $('.view-homepage-slider .views-row'),
+      //        now = divs.filter(':visible'),
+      //        next = now.next().length ? now.next() : divs.first(),
+      //        speed = 1000;
+      //
+      //    now.fadeOut(speed);
+      //    next.fadeIn(speed);
+      //}
+      //
+      //$(function () {
+      //    setInterval(homepage_slideshow, 6000);
+      //});
+      $(".view-homepage-slider .views-row:gt(0)").hide();
 
-          now.fadeOut(speed);
-          next.fadeIn(speed);
-      }
+      setInterval(function() {
+          $('.view-homepage-slider .views-row:first')
+              .fadeOut(1000)
+              .next()
+              .fadeIn(2000)
+              .end()
+              .appendTo('.view-homepage-slider .view-content');
+      },  6000);
 
-      $(function () {
-          setInterval(homepage_slideshow, 6000);
-      });
   } // end attach: function()
 }; // end my_custom_behavior
 
