@@ -121,6 +121,109 @@
 .view-blog-listing img {
     width:220px;
 }
+.view-id-portfolio_listing .views-field {
+    clear: left;
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding-left: 0;
+    padding-right: 0;
+}
+.yellow-btn, #block-webform-client-block-6 .webform-submit,
+#block-webform-client-block-106 .webform-submit {
+    background: #e9aa64;
+}
+.view-id-portfolio_listing .views-field-field-image {
+    float: left;
+    width: 16.66667%;
+    margin-left: 0%;
+    margin-right: -16.66667%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding-left: 0;
+    padding-right: 0;
+}
+.view-id-portfolio_listing .views-field-field-image a {
+    display: inline;
+    margin-bottom: 0px;
+    min-width: 50%;
+}
+.view-id-portfolio_listing .views-field-field-image a img {
+    display: block;
+}
+.view-id-portfolio_listing .views-field {
+    clear: left;
+}
+.view-id-portfolio_listing .views-field-field-intro {
+    clear: none;
+    float: left;
+    width: 75%;
+    margin-left: 25%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding-left: 0;
+    padding-right: 0;
+}
+.view-id-portfolio_listing .risk-value {
+    font-size: 50px;
+    vertical-align: middle;
+}
+.text-aqua {
+    color: #92c0ba;
+}
+.view-id-portfolio_listing .portfolio-title .after-label {
+    display: block;
+    font-size: 70%;
+}
+.view-id-portfolio_listing .portfolio-title {
+    float: left;
+}
+.view-id-portfolio_listing .portfolio-title {
+    text-transform: uppercase;
+}
+.view-id-portfolio_listing .risk-display {
+    float: right;
+}
+.view-portfolio-listing .views-row {
+height:300px;
+}
+.text-light-green {
+    color: #97a888;
+}
+.text-light-blue {
+    color: #b5cbce;
+}
+.text-green {
+    color: #88855D;
+}
+.text-yellow {
+    color: #e9aa64;
+}
+.text-orange {
+    color: #dd733c;
+}
+.text-red {
+    color: #c0453d;
+}
 #block-block-8 {
     z-index:1;
 }
