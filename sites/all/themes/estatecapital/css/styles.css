@@ -242,7 +242,12 @@ height:300px;
     background: #b5cbce;
     color:#fff;
 }
-
+.view-homepage-header-display-offset .pad-content-box.theme-green .btn, .view-homepage-header-display-offset .pad-content-box.theme-green .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-display-offset .pad-content-box.theme-green a, .view-homepage-header-sticky-display .views-row.theme-green .btn, .view-homepage-header-sticky-display .views-row.theme-green .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-sticky-display .views-row.theme-green a, .view-homepage-header-display .views-row.theme-green .btn, .view-homepage-header-display .views-row.theme-green .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-display .views-row.theme-green a, .view-key-related-pages .views-row.theme-green .btn, .view-key-related-pages .views-row.theme-green .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-key-related-pages .views-row.theme-green a {
+    background: #4b4a34;
+}
+.view-homepage-header-display-offset .pad-content-box.theme-light-blue .btn, .view-homepage-header-display-offset .pad-content-box.theme-light-blue .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-display-offset .pad-content-box.theme-light-blue a, .view-homepage-header-sticky-display .views-row.theme-light-blue .btn, .view-homepage-header-sticky-display .views-row.theme-light-blue .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-sticky-display .views-row.theme-light-blue a, .view-homepage-header-display .views-row.theme-light-blue .btn, .view-homepage-header-display .views-row.theme-light-blue .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-homepage-header-display .views-row.theme-light-blue a, .view-key-related-pages .views-row.theme-light-blue .btn, .view-key-related-pages .views-row.theme-light-blue .pager.pager-load-more .pager-next.first.last a, .pager.pager-load-more .pager-next.first.last .view-key-related-pages .views-row.theme-light-blue a {
+    background: #78a0a5;
+}
 #block-block-8 {
     z-index:1;
 }
