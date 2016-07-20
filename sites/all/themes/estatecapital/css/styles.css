@@ -667,7 +667,7 @@ table {
   #page,
   .region-bottom,
   .full-width-content {
-    width: 100%;
+    width: 300px;
   }
 }
 
@@ -4885,12 +4885,9 @@ article.node-team.view-mode-default .field-name-field-image img,
     #block-views-blog-listing-block-1 {
         height:1470px;
     }
-
-
   .block-default-margin,
   #block-views-homepage-blog-listing-block .views-row,
   .view-display-id-block_1 .views-row,
-
   .view-display-id-blog_listing_default .views-row {
     margin-bottom: 60px
   }
